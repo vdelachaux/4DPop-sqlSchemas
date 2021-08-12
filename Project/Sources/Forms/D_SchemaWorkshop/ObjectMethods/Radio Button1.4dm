@@ -1,0 +1,3 @@
+OBJECT SET ENABLED:C1123(cbSQL; False:C215)
+cbSQL:=0
+WS_SQL_Update_Statement

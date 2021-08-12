@@ -1,0 +1,18 @@
+{
+	"Groups": {
+		"lineHeight": 18,
+		"editable": false,
+		"items": [
+			{
+				"text": "<NOBODY>",
+				"ref": 1,
+				"editable": true,
+				"collapsed": true
+			}
+		]
+	},
+	"EmptyEnum": {
+		"lineHeight": 18,
+		"editable": false
+	}
+}

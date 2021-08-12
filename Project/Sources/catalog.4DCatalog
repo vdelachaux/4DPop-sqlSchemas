@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="4DPop sqlSchemas" uuid="AD9A3BABE5B94896905B7C670F780DA5" collation_locale="fr">
+	<schema name="DEFAULT_SCHEMA"/>
+	<schema name="Schema_1"/>
+	<table name="(Table_1)" uuid="82C2451A526C47E9BDE79B10B9FD0221" id="1" leave_tag_on_delete="true" hide_in_REST="true" prevent_journaling="true">
+		<field name="ID" uuid="65D27F4189E04E56987D7B0F99B9E9E5" type="4" id="1"/>
+		<table_extra trashed="true" input_form="" output_form="">
+			<editor_table_info fields_ordering="1" displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="40" top="40" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<base_extra package_name="4DPop sqlSchemas" structure_file_name="4DPop sqlSchemas" data_file_path=":Data:4DPop sqlSchemas.4DD" __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0">
+		<temp_folder folder_selector="data"/>
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>

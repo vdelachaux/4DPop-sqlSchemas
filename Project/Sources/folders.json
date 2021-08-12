@@ -1,0 +1,94 @@
+{
+	"Compiler": {
+		"methods": [
+			"Compiler",
+			"Compiler_Arrays",
+			"Compiler_Arrays_Inter",
+			"Compiler_Methods",
+			"Compiler_Variables",
+			"Compiler_Variables_Inter"
+		]
+	},
+	"Dialogs": {
+		"forms": [
+			"D_SchemaWorkshop",
+			"D_SqlExecute"
+		]
+	},
+	"ImportExport": {
+		"methods": [
+			"Export_Schema_XML2",
+			"Export_Schemas_SQL",
+			"Export_Schemas_XML",
+			"Import_Schemas",
+			"Import_XML_to_SQL",
+			"M_Export",
+			"M_Export_SQL",
+			"M_Export_XML",
+			"M_Export_XML_SQL",
+			"M_Import"
+		]
+	},
+	"Private": {
+		"groups": [
+			"Compiler",
+			"Dialogs",
+			"ImportExport",
+			"WorkShop"
+		],
+		"methods": [
+			"0_Test"
+		]
+	},
+	"Shared": {
+		"methods": [
+			"SC_Dial_Workshop",
+			"SC_ERROR",
+			"SC_Get_Tables_from_SchemaID",
+			"SC_Get_Tables_from_SchemaName",
+			"SC_GroupExists",
+			"SC_K_Default",
+			"SC_K_Everybody",
+			"SC_K_Nobody",
+			"SC_Schema_Create",
+			"SC_Schema_Drop",
+			"SC_Schema_Exists",
+			"SC_Schema_Get_ID",
+			"SC_Schema_Rename",
+			"SC_Schema_Right_Grant",
+			"SC_Schema_Right_Revoke",
+			"SC_Schema_Rights_Grant",
+			"SC_Schemas_Load",
+			"SC_Schemas_Supported",
+			"SC_SQL_ExecuteImmediate",
+			"SC_Table_Exists",
+			"SC_Table_Get_Schema",
+			"SC_Table_Get_Schema_ID",
+			"SC_Table_Set_Schema",
+			"SC_Tables_Load"
+		]
+	},
+	"WorkShop": {
+		"methods": [
+			"APP_Deinit",
+			"APP_Init",
+			"SC__ERR_Handler",
+			"WS_Dlg_OM_DataChange",
+			"WS_Dlg_SelectTables",
+			"WS_Dlg_SetColWidth",
+			"WS_Read_Groups",
+			"WS_Read_Schemas",
+			"WS_Read_System_Tables",
+			"WS_Read_Tables",
+			"WS_Schema_Add",
+			"WS_Schema_Drop",
+			"WS_Schema_Rename",
+			"WS_Select_Schemas_for_Group",
+			"WS_SQL_Update_Statement",
+			"WS_Table_Add",
+			"WS_Table_Drop",
+			"WS_Table_Rename"
+		]
+	},
+	"trash": {}
+}

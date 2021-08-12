@@ -1,0 +1,786 @@
+{
+	"destination": "detailScreen",
+	"windowTitle": "Schema Workshop",
+	"windowMinWidth": 800,
+	"windowMinHeight": 500,
+	"width": 800,
+	"height": 490,
+	"menuBar": "Barre #1",
+	"markerBody": 636,
+	"markerBreak": 636,
+	"markerFooter": 636,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onActivate",
+		"onDoubleClick",
+		"onDataChange",
+		"onUnload",
+		"onTimer",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Invisible Button": {
+					"type": "button",
+					"top": 1,
+					"left": 1,
+					"width": 11,
+					"height": 139,
+					"dataSource": "WS_Bumper",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Invisible Button1": {
+					"type": "button",
+					"top": 310,
+					"left": 1,
+					"width": 10,
+					"height": 179,
+					"sizingY": "move",
+					"dataSource": "WS_Bumper",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Group Box1": {
+					"type": "text",
+					"top": 250,
+					"left": 290,
+					"width": 201,
+					"height": 13,
+					"fontFamily": "Lucida Grande Bold",
+					"fontSize": 11,
+					"fontWeight": "bold",
+					"text": "SQL Definition"
+				},
+				"Group Box3": {
+					"type": "text",
+					"top": 250,
+					"left": 20,
+					"width": 250,
+					"height": 16,
+					"fontFamily": "Lucida Grande Bold",
+					"fontSize": 11,
+					"fontWeight": "bold",
+					"text": "Groups"
+				},
+				"Button1": {
+					"type": "button",
+					"top": 464,
+					"left": 700,
+					"width": 80,
+					"height": 18,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "bSave",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Export…",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Schemas_LB": {
+					"type": "listbox",
+					"top": 30,
+					"left": 20,
+					"width": 500,
+					"height": 170,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "WS_Schemas_ab",
+					"hideFocusRing": true,
+					"movableRows": false,
+					"rowHeight": "17px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"staticColumnCount": 4,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"alternateFill": "#EEEEEE",
+					"method": "ObjectMethods/Schemas_LB.4dm",
+					"events": [
+						"onDoubleClick",
+						"onSelectionChange"
+					],
+					"columns": [
+						{
+							"name": "WS_SchemaName_at",
+							"dataSource": "WS_SchemaName_at",
+							"width": 154,
+							"minWidth": 154,
+							"maxWidth": 154,
+							"resizable": false,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#EEEEEE",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Name",
+								"dataSource": "Header3",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Pied1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "WS_Read_at",
+							"dataSource": "WS_Read_at",
+							"choiceList": {
+								"$ref": "/SOURCES/lists.json#/EmptyEnum"
+							},
+							"width": 110,
+							"minWidth": 110,
+							"maxWidth": 110,
+							"resizable": false,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#EEEEEE",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/WS_Read_at.4dm",
+							"header": {
+								"name": "Header8",
+								"text": "Read",
+								"dataSource": "Header8",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Pied2",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "WS_ReadWrite_at",
+							"dataSource": "WS_ReadWrite_at",
+							"choiceList": {
+								"$ref": "/SOURCES/lists.json#/EmptyEnum"
+							},
+							"width": 110,
+							"minWidth": 110,
+							"maxWidth": 110,
+							"resizable": false,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#EEEEEE",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/WS_ReadWrite_at.4dm",
+							"header": {
+								"name": "Header9",
+								"text": "ReadWrite",
+								"dataSource": "Header9",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Pied3",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "WS_All_at",
+							"dataSource": "WS_All_at",
+							"choiceList": {
+								"$ref": "/SOURCES/lists.json#/EmptyEnum"
+							},
+							"width": 111,
+							"minWidth": 110,
+							"maxWidth": 111,
+							"resizable": false,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#EEEEEE",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/WS_All_at.4dm",
+							"header": {
+								"name": "Header10",
+								"text": "All",
+								"dataSource": "Header10",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Pied4",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						}
+					]
+				},
+				"Check Box2": {
+					"type": "checkbox",
+					"top": 206,
+					"left": 20,
+					"width": 250,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "WS_cbFilterTables",
+					"text": "Filter tables for selected schema",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"method": "ObjectMethods/Check Box2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Tables_LB": {
+					"type": "listbox",
+					"top": 30,
+					"left": 540,
+					"width": 240,
+					"height": 170,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "WS_Tables_ab",
+					"hideFocusRing": true,
+					"movableRows": false,
+					"rowHeight": "17px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"alternateFill": "#EEEEEE",
+					"method": "ObjectMethods/Tables_LB.4dm",
+					"events": [
+						"onDoubleClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"columns": [
+						{
+							"name": "WS_TableName_at",
+							"dataSource": "WS_TableName_at",
+							"width": 120,
+							"minWidth": 100,
+							"maxWidth": 180,
+							"resizable": false,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#EEEEEE",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Name",
+								"dataSource": "Header2",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Pied5",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "WS_TableSchemaName_at",
+							"dataSource": "WS_TableSchemaName_at",
+							"choiceList": {
+								"$ref": "/SOURCES/lists.json#/EmptyEnum"
+							},
+							"width": 120,
+							"minWidth": 100,
+							"maxWidth": 180,
+							"resizable": false,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#EEEEEE",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/WS_TableSchemaName_at.4dm",
+							"header": {
+								"name": "Header1",
+								"text": "Schema",
+								"dataSource": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Pied6",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						}
+					]
+				},
+				"List Box1": {
+					"type": "listbox",
+					"top": 270,
+					"left": 20,
+					"width": 250,
+					"height": 183,
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "WS_Groups_ab",
+					"hideFocusRing": true,
+					"movableRows": false,
+					"rowHeight": "17px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "17px",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"alternateFill": "#EEEEEE",
+					"method": "ObjectMethods/List Box1.4dm",
+					"events": [
+						"onSelectionChange"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "WS_GroupNames_at",
+							"width": 235,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"resizable": false,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#EEEEEE",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header4",
+								"text": "Name",
+								"dataSource": "Header4",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Pied7",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						}
+					]
+				},
+				"Variable": {
+					"type": "input",
+					"top": 272,
+					"left": 290,
+					"width": 473,
+					"height": 165,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Statement_t",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"hideFocusRing": true,
+					"scrollbarVertical": "visible",
+					"scrollbarHorizontal": "visible",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Radio Button": {
+					"type": "radio",
+					"top": 546,
+					"left": 595,
+					"width": 136,
+					"height": 11,
+					"sizingY": "move",
+					"dataSource": "rbXML",
+					"text": "As XML",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 9,
+					"method": "ObjectMethods/Radio Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Radio Button1": {
+					"type": "radio",
+					"top": 566,
+					"left": 595,
+					"width": 136,
+					"height": 11,
+					"sizingY": "move",
+					"dataSource": "rbSQL",
+					"text": "As SQL",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 9,
+					"method": "ObjectMethods/Radio Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Check Box": {
+					"type": "checkbox",
+					"top": 584,
+					"left": 595,
+					"width": 158,
+					"height": 11,
+					"sizingY": "move",
+					"dataSource": "cbSQL",
+					"text": "Include SQL as CDATA",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 9,
+					"method": "ObjectMethods/Check Box.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Check Box1": {
+					"type": "checkbox",
+					"top": 596,
+					"left": 595,
+					"width": 158,
+					"height": 11,
+					"sizingY": "move",
+					"dataSource": "cbEncode",
+					"text": "Encode Export file",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 9,
+					"method": "ObjectMethods/Check Box1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button4": {
+					"type": "button",
+					"top": 464,
+					"left": 615,
+					"width": 80,
+					"height": 18,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "bLoadCatalog",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Import…",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/Button4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 573,
+					"left": 140,
+					"width": 60,
+					"height": 18,
+					"sizingY": "move",
+					"dataSource": "WS_bAddTable",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Edit",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 10,
+					"left": 540,
+					"width": 240,
+					"height": 14,
+					"fontFamily": "Lucida Grande Bold",
+					"fontSize": 11,
+					"fontWeight": "bold",
+					"text": "Tables"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 10,
+					"left": 20,
+					"width": 250,
+					"height": 14,
+					"fontFamily": "Lucida Grande Bold",
+					"fontSize": 11,
+					"fontWeight": "bold",
+					"text": "Schemas definitions"
+				},
+				"Button3": {
+					"type": "button",
+					"top": 208,
+					"left": 480,
+					"width": 40,
+					"height": 18,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "WS_bAddSchema",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "+",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button6": {
+					"type": "button",
+					"top": 208,
+					"left": 435,
+					"width": 40,
+					"height": 18,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "WS_bDropSchema",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "-",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/Button6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button10": {
+					"type": "button",
+					"top": 208,
+					"left": 740,
+					"width": 40,
+					"height": 18,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "WS_bAddTable",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "+",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/Button10.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button11": {
+					"type": "button",
+					"top": 208,
+					"left": 695,
+					"width": 40,
+					"height": 18,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "WS_bDropTable",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "-",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/Button11.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button5": {
+					"type": "button",
+					"top": 573,
+					"left": 20,
+					"width": 100,
+					"height": 18,
+					"sizingY": "move",
+					"dataSource": "WS_bAddTable",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"focusable": false,
+					"text": "Change user",
+					"iconFrames": 4,
+					"style": "bevel",
+					"method": "ObjectMethods/Button5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"hSplitter": {
+					"type": "button",
+					"top": 232,
+					"left": 1,
+					"width": 798,
+					"height": 10,
+					"sizingX": "grow",
+					"dataSource": "hSplitter",
+					"action": "automaticSplitter",
+					"display": false,
+					"method": "ObjectMethods/hSplitter.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vSplitter": {
+					"type": "button",
+					"top": 1,
+					"left": 525,
+					"width": 10,
+					"height": 230,
+					"sizingY": "grow",
+					"dataSource": "vSplitter",
+					"action": "automaticSplitter",
+					"display": false,
+					"method": "ObjectMethods/vSplitter.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vBullet": {
+					"type": "picture",
+					"top": 112,
+					"left": 526,
+					"width": 8,
+					"height": 8,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Pictures/SplitterButton.png"
+				},
+				"hBullet": {
+					"type": "picture",
+					"top": 233,
+					"left": 396,
+					"width": 8,
+					"height": 8,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Pictures/SplitterButton.png"
+				},
+				"Invisible Button2": {
+					"type": "button",
+					"top": 1,
+					"left": 1,
+					"width": 319,
+					"height": 9,
+					"dataSource": "WS_Bumper",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				}
+			},
+			"entryOrder": [
+				"Schemas_LB",
+				"Check Box2",
+				"Tables_LB",
+				"List Box1",
+				"Variable",
+				"Radio Button",
+				"Radio Button1",
+				"Check Box",
+				"Check Box1"
+			]
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}
