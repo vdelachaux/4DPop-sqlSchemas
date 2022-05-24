@@ -49,3 +49,4 @@ Thumbs.db
 # Added by user
 #--------------------------------
 Libraries/lib4d-arm64.dylib
+Build/Components/4DPop sqlSchemas.4dbase/_gsdata_
