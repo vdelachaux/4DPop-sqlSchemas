@@ -50,3 +50,4 @@ Thumbs.db
 #--------------------------------
 Libraries/lib4d-arm64.dylib
 Build/Components/4DPop sqlSchemas.4dbase/_gsdata_
+Build/Components/4DPop sqlSchemas.dmg
