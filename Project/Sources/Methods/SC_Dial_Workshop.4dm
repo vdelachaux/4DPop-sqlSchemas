@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true,"shared":true}
+//%attributes = {}
 C_POINTER:C301($1; $Ptr)
 C_LONGINT:C283($2)
 C_LONGINT:C283($pss)

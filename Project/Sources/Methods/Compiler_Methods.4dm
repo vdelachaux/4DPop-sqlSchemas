@@ -1,6 +1,10 @@
 //%attributes = {"invisible":true}
 
 
+If (False:C215)
+	C_OBJECT:C1216(_4DPopSQLSchema; $0)
+End if 
+
 //EXPORT_SCHEMAS_SQL
 C_TEXT:C284(Export_Schemas_SQL; $0)
 C_POINTER:C301(Export_Schemas_SQL; $1)
