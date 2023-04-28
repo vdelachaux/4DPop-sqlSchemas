@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 // METHOD_NAME : WS_Read_Groups
 // MODULE : WorkShop
 // ============================================================================

@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 
 // METHOD_NAME : WS_Dlg_SetColWidth
 // Module : 

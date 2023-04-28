@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 //Dummy_System_Tables 
 C_TEXT:C284($Text_t)
 C_BLOB:C604($Blob)

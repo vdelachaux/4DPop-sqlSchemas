@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 // Compiler
 //Must be called in the Startup process
 //Must be called each time a new process is created

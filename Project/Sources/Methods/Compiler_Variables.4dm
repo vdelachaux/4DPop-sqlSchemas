@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 
 C_LONGINT:C283(BCANCEL)
 C_LONGINT:C283(BDELETE)

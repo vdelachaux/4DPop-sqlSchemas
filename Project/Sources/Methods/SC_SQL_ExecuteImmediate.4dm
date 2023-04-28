@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true,"shared":true,"publishedSql":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 // METHOD_NAME : SC_SQL_ExecuteImmediate
 // Module : SC
 // Username : jpupier

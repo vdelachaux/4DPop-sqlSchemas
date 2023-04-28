@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true,"shared":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 // METHOD_NAME : SC_K_Everybody
 // Module : SC
 // Username : jpupier

@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true,"shared":true,"publishedSql":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 // METHOD_NAME : SC_Table_Get_Schema
 // Module : SC
 // Username : jpupier

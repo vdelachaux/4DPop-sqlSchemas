@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 C_TEXT:C284($1; $GroupName_t)
 $GroupName_t:=$1
 C_LONGINT:C283($Loop_l)

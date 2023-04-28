@@ -1,8 +1,9 @@
-//%attributes = {"invisible":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 
 
 If (False:C215)
 	C_OBJECT:C1216(_4DPopSQLSchema; $0)
+	C_OBJECT:C1216(editor; $1)
 End if 
 
 //EXPORT_SCHEMAS_SQL

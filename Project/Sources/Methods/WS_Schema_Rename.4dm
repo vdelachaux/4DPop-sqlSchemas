@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 
 C_TEXT:C284($SchemaName_t)
 C_TEXT:C284($NewSchemaName_t)

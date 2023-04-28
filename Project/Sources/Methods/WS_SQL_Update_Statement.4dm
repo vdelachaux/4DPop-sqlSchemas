@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 C_BOOLEAN:C305($IncludeSQL_b)
 C_TEXT:C284($Text_t)
 C_TEXT:C284($Root_t)

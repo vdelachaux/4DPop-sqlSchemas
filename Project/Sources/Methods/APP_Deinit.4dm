@@ -1,2 +1,2 @@
-//%attributes = {"invisible":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 Compiler(True:C214)

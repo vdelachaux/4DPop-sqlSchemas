@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 C_LONGINT:C283($Value_l)
 C_TEXT:C284($Value_t)
 $Value_l:=0

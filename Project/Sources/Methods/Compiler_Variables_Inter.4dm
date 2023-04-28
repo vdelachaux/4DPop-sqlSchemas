@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 
 C_BOOLEAN:C305(<>IP_INITED_B)
 C_LONGINT:C283(<>WS_PSSID)

@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true,"shared":true,"publishedSql":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 // METHOD_NAME : SC_Schema_Rights_Grant(Schema;{Group1{;Group2;{Group3}}}
 // Module : SC
 // Username : jpupier

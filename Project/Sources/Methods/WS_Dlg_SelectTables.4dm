@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 C_LONGINT:C283($Action_l; $Loop_l; $Pos)
 C_TEXT:C284($SchemaName_t)
 

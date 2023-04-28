@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true,"shared":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 C_TEXT:C284($1; $MethodName_t)
 $MethodName_t:=$1
 C_TEXT:C284($2; $Error_t)

@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 C_POINTER:C301($1; $ObjectPtr_p)
 $ObjectPtr_p:=$1
 

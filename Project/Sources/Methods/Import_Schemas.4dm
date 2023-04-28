@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 C_TEXT:C284($Doc)
 C_TEXT:C284($Root)
 C_TEXT:C284($Ref)

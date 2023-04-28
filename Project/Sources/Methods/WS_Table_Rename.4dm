@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 C_LONGINT:C283($pos)
 C_TEXT:C284($TableName_t)
 C_TEXT:C284($NewTableName_t)

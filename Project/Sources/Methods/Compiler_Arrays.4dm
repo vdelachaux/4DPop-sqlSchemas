@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 ARRAY TEXT:C222(TABLESLIST_AT; 0)
 ARRAY TEXT:C222(WS_TabControl; 0)
 ARRAY TEXT:C222(WS_SchemaName_at; 0)

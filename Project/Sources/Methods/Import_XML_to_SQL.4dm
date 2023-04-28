@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 C_TEXT:C284($0; $SQL_t)
 $SQL_t:=""
 C_TEXT:C284($1; $name_t)

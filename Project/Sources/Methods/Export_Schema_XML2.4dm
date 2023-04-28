@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true}
+//%attributes = {"invisible":true,"publishedSql":true}
 //01_ExportSchemas_XML (->$SchemaName_at;->$Read_at;->$ReadWrite_at;->$All_at;->$Group_at;->$TableName_at;->$TableSchemaName_at)
 C_TEXT:C284($0; $Root_t)
 C_POINTER:C301($1; $SchemaName_at_p)
