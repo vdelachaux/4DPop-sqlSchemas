@@ -1,9 +1,8 @@
 {
-  "name": "SqlSchemas",
+  "name": "Schemas",
   "media": "4DPop.png",
-  "helptip": "Help for sqlSchema...",
-  "handler": "_4DPopSQLSchema",
+  "handler": "_4DPopSql",
   "tools": {
-    "method": "editor"
+    "method": "main"
   }
 }
