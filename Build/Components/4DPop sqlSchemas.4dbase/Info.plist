@@ -6,15 +6,15 @@
     <key>CSResourcesFileMapped</key>
     <string></string>
     <key>CFBundleVersion</key>
-    <string>297</string>
+    <string>298</string>
     <key>NSHumanReadableCopyright</key>
-    <string>© 4D SAS 2009-2023</string>
+    <string>© 4D SAS 2009-2024</string>
     <key>CFBundleGetInfoString</key>
-    <string>20</string>
+    <string>20R6</string>
     <key>CFBundleLongVersionString</key>
-    <string>20 (296)</string>
+    <string>20R6 (297)</string>
     <key>CFBundleShortVersionString</key>
-    <string>20</string>
+    <string>20R6</string>
     <key>CFBundleName</key>
     <string>4DPop sqlSchemas</string>
     <key>CFBundleDisplayName</key>

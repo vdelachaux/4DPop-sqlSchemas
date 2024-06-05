@@ -12,7 +12,7 @@
 			</editor_table_info>
 		</table_extra>
 	</table>
-	<base_extra package_name="4DPop sqlSchemas" structure_file_name="4DPop sqlSchemas" data_file_path=":Data:4DPop sqlSchemas.4DD" __stringCompHash="icu:72.1.0" __keywordBuildingHash="icu:72.1.0">
+	<base_extra package_name="4DPop sqlSchemas" structure_file_name="4DPop sqlSchemas" data_file_path=":Data:4DPop sqlSchemas.4DD">
 		<temp_folder folder_selector="data"/>
 		<journal_file journal_file_enabled="false"/>
 	</base_extra>
