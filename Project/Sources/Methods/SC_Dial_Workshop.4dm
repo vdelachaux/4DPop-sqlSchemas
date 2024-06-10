@@ -5,8 +5,8 @@ C_LONGINT:C283($pss)
 C_TIME:C306($Ref)
 C_TEXT:C284($String_t)
 
-APP_Init
 Compiler
+APP_Init
 
 
 If (Count parameters:C259<=1)
