@@ -1,5 +1,5 @@
 //%attributes = {"invisible":true,"publishedSql":true}
-var <>IP_INITED_B : Boolean
+//var <>IP_INITED_B : Boolean
 var <>WS_PSSID : Integer
 var <>SC_EVERYBODY_T : Text
 var <>SC_NOBODY_T : Text

@@ -5,7 +5,12 @@
 	<schema name="Schema_1"/>
 	<table name="(Table_1)" uuid="82C2451A526C47E9BDE79B10B9FD0221" id="1" leave_tag_on_delete="true" hide_in_REST="true" prevent_journaling="true">
 		<field name="ID" uuid="65D27F4189E04E56987D7B0F99B9E9E5" type="4" id="1"/>
-		<table_extra trashed="true" input_form="" output_form=""/>
+		<table_extra trashed="true" input_form="" output_form="">
+			<editor_table_info displayable_fields_count="6" fields_ordering="1">
+				<color alpha="0" blue="255" green="255" red="255"/>
+				<coordinates height="167.33203125" width="120" top="40" left="40"/>
+			</editor_table_info>
+		</table_extra>
 	</table>
 	<base_extra package_name="4DPop sqlSchemas" structure_file_name="4DPop sqlSchemas" data_file_path=":Data:4DPop sqlSchemas.4DD">
 		<temp_folder folder_selector="data"/>

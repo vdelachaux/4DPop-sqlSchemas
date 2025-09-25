@@ -18,7 +18,7 @@ var HEADER3 : Integer
 var HEADER4 : Integer
 var HEADER8 : Integer
 var HEADER9 : Integer
-var PSS_INITED_B : Boolean
+//var PSS_INITED_B : Boolean
 var RBSQL : Integer
 var RBXML : Integer
 var SPLITTER : Integer
